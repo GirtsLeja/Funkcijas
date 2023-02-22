@@ -1,0 +1,28 @@
+  #bez funkcijam
+name = input('What is your name?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+age = input('How old are you?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+drink = input('What is yout favorite drink?: ')
+print('=======')
+print(' -x+x-')
+print('=======')
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
+
+#ar funkcijam
+def printModelis():
+    print('=======')
+    print(' -x+x-')
+    print('=======')
+
+name = input('What is your name?: ')
+printModelis()
+age = input('How old are you?: ')
+printModelis()
+drink = input('What is yout favorite drink?: ')
+printModelis()
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
